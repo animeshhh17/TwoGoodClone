@@ -1,5 +1,5 @@
 @font-face {
-    font-family: Futura;
+    font-family: futura;
     src: url(./Futura-Bold.ttf);
 }
 @font-face {
@@ -10,7 +10,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Gilroy';
 }
 
 *::selection {
@@ -177,8 +176,38 @@ body {
 
 }
 
+#paragraphs{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+}
+
+#left{
+    height: 100%;
+    width: 50%;
+    font-size: 1.6rem;
+    font-family: futura;
+    padding: 10vh 10vh;
+}
+
+#right{
+    height: 100%;
+    width: 50%;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    padding: 11vh 20vh;
+}
+
+#right p{
+    margin-bottom: 25px;
+}
+
+#right span{
+    text-decoration: underline 1px solid black;
+}
+
 #page3 {
-    min-height: 120vh;
+    min-height: 200vh;
     width: 100%;
     position: relative;
     display: flex;
@@ -198,10 +227,170 @@ body {
     justify-content: center;
 }
 
+#child1{
+    display: block;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#child1 p{
+    color: grey;
+    padding-top: 10px;
+}
+
+#child2{
+    display: block;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#child2 p{
+    color: grey;
+    padding-top: 10px;
+}
+
+#child3{
+    display: block;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#child3 p{
+    color: grey;
+    padding-top: 10px;
+}
+
+#child4{
+    display: block;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#child4 p{
+    color: grey;
+    padding-top: 10px;
+}
+
+#child5{
+    display: block;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#child5 p{
+    color: grey;
+    padding-top: 10px;
+}
+
+#child6{
+    display: block;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#child6 p{
+    color: grey;
+    padding-top: 10px;
+}
+
 .child img {
     height: 100%;
 }
 
+/*#radiopanel{
+    height: 50vh;
+    width: 95%;
+    padding-left: 4%;
+}
+
+#linep{
+    font-family: sans-serif;
+    font-size: 0.9rem;
+    padding: 0% 3%;
+    margin-top: 15vh;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}*/
+
+#page4{
+    margin-top: 5vh;
+    height: 80vh;
+    width: 100%;
+}
+
+#page4 h1{
+    font-size: 4.0rem;
+    font-family: futura;
+    padding: 5vh 10vh;
+    margin-top: 10vh;
+    text-align: center;
+}
+
+#page4 button{
+    font-size: 1rem;
+    font-family: sans-serif;
+    padding: 12px;
+    background-color: #000;
+    color: white;
+    border-radius: 30px;
+    margin-left: 91vh;
+    margin-top: 1vh;
+
+}
+
+#page4 p{
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    text-align: center;
+    color: black;
+    padding-top: 3vh;
+}
+
+#page5{
+    height: 100vh;
+    width: 100%;
+    margin-top: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#coloms{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#col1{
+    height: 100%;
+    width: 30%;
+}
+
+#col2{
+    height: 100%;
+    width: 30%;
+}
+
+#col2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    scale:1.1;
+}
+
+#col3{
+    height: 100%;
+    width: 30%;
+}
+
+#col3 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    scale: 1.1;
+}
 
 @media (max-width:600px) {
 
