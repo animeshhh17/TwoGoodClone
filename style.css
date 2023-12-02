@@ -427,6 +427,9 @@ body {
 
 @media (max-width:600px) {
 
+    html,body{
+        overflow-x: hidden;
+    }
     #nav {
         /* height: 100px; */
         width: 100%;
@@ -539,30 +542,116 @@ body {
 
     }
 
-    #page3 {
-        min-height: 120vh;
+    #paragraphs{
+        display: block;
+    }
+
+    #left{
+        height: 40vh;
+        width: 100vw;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    #left h1{
+        margin-top: -10vh;
+    }
+
+    #right{
+        margin-top: -10vh;
+        height: 40vh;
+        width: 100vw;
+        text-align: center;
+    }
+
+    #right span p{
+        margin-top: 50px;
+    }
+
+
+    #right p{
+        margin-bottom: 5vh;
+    }
+
+    #page3{
+        margin-top: 30vh;
+    }
+
+    .child img{
+        height: 30vh;
+        width: 40vw;
+    }
+
+    #page4{
+        height: 60vh;
+        margin-top: -25vh;
+    }
+
+    #page4 h1{
+        font-size: 30px;
+    }
+
+    #page4 button{
+        margin-top: -1vh;
+        margin-left: 28vw;
+    }
+
+    #coloms{
+        display: block;
+    }
+
+    #col1{
+        padding-top: 25vh;
         width: 100%;
-        position: relative;
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
+        text-align: center;
     }
 
-    .child {
-        height: 54vh;
-        width: 88vw;
-        /* background-color: red; */
-        /* border: 2px solid #000; */
-        position: relative;
-        padding: 15vw;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    #col2{
+        margin-top: -95vh;
+        width: 80vw;
     }
 
-    .child img {
-        height: 100%;
+    #col2 img{
+        height: 50vh;
+        width: 70vw;
+        margin-left: -20vw;
     }
+
+    #col3{
+        margin-top: -80vh;
+        margin-left: 45vw;
+        width: 80vw;
+    }
+
+    #col3 img{
+        height: 50vh;
+        width: 50vw;
+    }
+
+    #col2{
+        margin-left: 5vw;
+    }
+
+    #email{
+        margin-top: -15vh;
+    }
+    #email h1{
+        font-size: 30px;
+    }
+
+
+    #follow1{
+        display: none;
+    }
+
+    #follow3{
+        display: none;
+    }
+
+    #follow2 img{
+        margin-top: 3vh;
+        margin-left: 10vw;
+    }
+
 
 }
